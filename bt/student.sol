@@ -27,4 +27,8 @@ contract Student3 {
         }
         revert("Student not found");
     }
+
+    fallback() external payable {
+        // Fallback function does nothing for now
+    }
 }
